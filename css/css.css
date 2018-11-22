@@ -1,0 +1,210 @@
+body {
+    background-image: url("../images/bg.jpg");
+}
+
+header, main, nav {
+    font-family: 'Play', sans-serif;
+}
+
+footer {
+    bottom: 0 !important;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.5em;
+}
+
+
+h3, h2, h1, p {
+    text-align: center;
+    background-color: white;
+    border-style: outset;
+    border-color: azure;
+}
+
+a {
+    color: black !important;
+}
+
+ul {
+    margin: auto;
+    padding: 0;
+    justify-content: center;
+    width: 427.5px;
+}
+
+li {
+    display: inline-block;
+    background-color: white;
+}
+
+
+li input {
+    text-align: center;
+    width: 40px;
+    height: 20px;
+}
+
+
+.ic {
+    width: 150px;
+    height: auto;
+    border-radius: 40% 40% 40% 40%;
+    border-width: thin;
+    background-color: white;
+}
+
+
+.audio_buttons {
+    width: 620px;
+}
+
+.click {
+    height: 60px !important;
+    width: 140px !important;
+    justify-content: center;
+    background-color: white;
+    border-style: outset;
+    border-color: azure;
+    border-width: thick;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.audio_click {
+    border-style: double;
+    height: 40px !important;
+    width: 100px !important;
+    text-align: center;
+    padding-top: 5px;
+    
+}
+
+.click:hover, .audio_click:hover, #submit:hover, #end:hover {
+    background-color: azure;
+}
+
+.alert {
+    text-align: center;
+}
+
+#computer {
+    width: 100px;
+    margin:auto;
+}
+
+#img_btn {
+    margin-left: 12%;
+    display: inline-block;
+    width: 500px;
+    height: auto;
+}
+
+#game {
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    background-color: azure;
+}
+
+#start {
+    margin-left: 43%;
+    margin-top:43%;
+    width: 100px;
+    height: auto;
+    font-size: 2em;
+}
+
+#ship {
+   
+    width: 150px;
+    height: auto;
+    
+} 
+
+#star {
+    
+    width: 150px;
+    height: auto;
+}
+
+#ufo {
+    
+    width: 150px;
+    height: auto;
+    
+}
+
+#stop {
+    margin: auto;
+    width: 100px;
+    margin-left: 48%;
+    font-size: 2em;
+}
+
+
+#icon {
+    width: 150px;
+    margin: auto;
+}
+
+#clock, #alarm {
+    justify-content: center !important;
+     margin: auto;
+}
+
+#alarm {
+    width: 320px;
+    margin-top: 10px;
+}
+
+#instruction {
+    margin: auto;
+    text-align: center;
+    
+}
+
+#time {
+    margin: auto;
+    padding-top: 35px;
+    justify-content: center !important;
+    text-align: center !important;
+    width: 100px;
+    height: 100px;
+    border-color: black;
+    border-radius: 80% 80% 80% 80%;
+    border-style: dotted;
+}
+
+#submit {
+    padding: 0;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+}
+
+#message {
+    justify-content: center;
+    
+    text-align: center;
+    color: red;
+    background-color: white;
+}
+
+#end {
+    margin: auto;
+}
+
+#submit:hover, #end:hover {
+    background-color: azure;
+}
+
+#ship:hover, #star:hover, #ufo:hover {
+    background-color: white;
+    border-radius: 30% 30% 30% 30%;
+}
+
+#player {
+    margin: auto;
+    width: 300px;
+}
